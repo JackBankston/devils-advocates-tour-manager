@@ -34,8 +34,7 @@ public class DAMain {
 	}
 	
 	public void about(JFrame oldFrame) throws IOException{
-		//All this code is straight up copied from the tutorial(...) method, because I am way too lazy to type it again.
-		//Sorry about the names not making sense.
+		//All this code is identical to the code from the tutorial(...) method
 		JPanel menuPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 12));
 		JButton mainMenuButton = new JButton("Main Menu");
 		mainMenuButton.setBackground(buttonColor);
